@@ -7,7 +7,7 @@ The project use ML.Net and Hand Gesture Recognition Database from this [kaggle r
 
 We use [ML.Net Model Builder](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet/model-builder) to build Machine Learning Model to recognize Gesture Hand.
 
-Below some picture of Model Builder wizard, with only 3 steps we build an image classification model but before to start, please download [the Hand Gesture Database](https://www.kaggle.com/benenharrington/hand-gesture-recognition-database-with-cnn/data) and unzip on your system, you will see these folders:
+Below some picture of Model Builder wizard, with only 3 steps we build an image classification model but before to start, please download [the Hand Gesture Database](https://www.kaggle.com/benenharrington/hand-gesture-recognition-database-with-cnn/data) and unzip on your file system, you will see these folders:
 
 ![alt Data](https://github.com/mrcarbook/handgesture/blob/master/Model%20Training/data.PNG)
 
