@@ -24,6 +24,7 @@ Finaly I created a web app project to take snapshot with webcam and use the mach
 
 ![alt Data](https://github.com/mrcarbook/handgesture/blob/master/Model%20Training/prediction.PNG)
 
-Next step, I'm working on the machine learning model in order to improve the prediction of gesture and use it in realtime application with a video streaming. 
+## Next step, I'm working on the machine learning model in order to improve the prediction of gestures and use it in realtime application for example with a video streaming. 
 
-Keep you update!
+## Keep you update!
+ 
