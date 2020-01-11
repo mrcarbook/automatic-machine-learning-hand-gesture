@@ -20,9 +20,10 @@ Below some picture of Model Builder wizard, with only 3 steps we build an image 
 4) Finaly evaluate and test it
 ![alt Data](https://github.com/mrcarbook/handgesture/blob/master/Model%20Training/evalute.PNG)
 
-Finaly I created a web app project to take snapshot with webcam and use the machine learning model to recognize the gesture.
+Finaly I created a web app project to take snapshot with webcam and use the machine learning model to recognize the gesture. Below the example where recognize an OK- Hand Gesture.
 
 ![alt Data](https://github.com/mrcarbook/handgesture/blob/master/Model%20Training/prediction.PNG)
 
+Next step, I'm working on the machine learning model in order to improve the prediction of gesture and use it in realtime application with a video streaming. 
 
-Next step, I'm working on the machine learning model in order to improve! Keep you update!
+Keep you update!
