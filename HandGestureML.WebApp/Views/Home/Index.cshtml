@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="row">
+    <div class="col-md-12">
+        <div class="text-center">
+            <h1 class="display-4">Welcome to ML.Net Hand Gesture</h1>
+            <p>The demo use ML.Net and Hand Gesture Recognition Database from this <a target="_blank" href="https://www.kaggle.com/gti-upm/leapgestrecog"></a> kaggle repository based on Leap Motion Sensor </p>
+            <p> <a class="nav-link text-dark" asp-area="" asp-controller="Camera" asp-action="Capture">To test it click here</a></p>
+            <p>The database is composed by 10 different</p>
+            <p>01_palm, 02_l, 03_fist, 04_fist_moved, 05_thumb, 06_index, 07_ok,08_palm_moved, 09_c, 10_down</p>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <img width="100%" src="~/CameraPhotos/dataset-cover.png" />
+    </div>
+</div>

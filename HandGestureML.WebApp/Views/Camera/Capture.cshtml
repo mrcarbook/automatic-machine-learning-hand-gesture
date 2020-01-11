@@ -1,0 +1,97 @@
+﻿
+@{
+    ViewData["Title"] = "Capture";
+}
+
+<style type="text/css">
+
+    #buttonhide {
+        background: transparent;
+        border: none !important;
+        font-size: 0;
+    }
+</style>
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">Camera</div>
+            <div class="panel-body">
+                <div id="my_camera"></div>
+                <!-- A button for taking snaps -->
+                <form>
+                    <input type="button" class="btn btn-success" value="Take Snapshot" onClick="take_snapshot()">
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">Captured Photo</div>
+            <div class="panel-body">
+                <div id="results">Your captured image will appear here...</div>
+            </div>
+            <br />
+            <br />
+        </div>
+    </div>
+
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <br /><br />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div id="prediction">The gesture prediction will appear here...</div>
+    </div>
+</div>
+@section Scripts {
+
+    <!-- Configure a few settings and attach camera -->
+    <script language="JavaScript">
+        Webcam.set({
+            width: 320,
+            height: 240,
+            image_format: 'jpeg',
+            jpeg_quality: 90
+        });
+        Webcam.attach('#my_camera');
+    </script>
+    <!-- Code to handle taking the snapshot and displaying it locally -->
+    <script language="JavaScript">
+        function take_snapshot() {
+
+            document.getElementById('prediction').innerHTML = '<p>The gesture prediction will appear here...<p/>';          
+            // take snapshot and get image data
+            Webcam.snap(function (data_uri) {
+                // display results in page
+                document.getElementById('results').innerHTML =
+                    '<img src="' +
+                    data_uri +
+                    '"/>';
+
+                Webcam.upload(data_uri,
+                    '/Camera/Capture',
+                    function (code, text) {
+                       // alert('Photo Captured');
+
+                        $.ajax({
+                                type: 'GET',
+                                url: '/Camera/GetPrediction',
+                                contentType: 'application/json',
+                                success: function (result) {
+                                    document.getElementById('prediction').innerHTML = '<p><b>' +result+ '</b><p/>';                                   
+                                }
+                            });
+                    });
+
+            });
+        }
+    </script>
+}
+
+

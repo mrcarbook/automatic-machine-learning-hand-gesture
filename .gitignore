@@ -3,3 +3,11 @@
 ################################################################################
 
 /HandGesture/bin/Debug/netcoreapp3.1
+/HandGesture/obj
+/HandGestureML.ConsoleApp/bin/Debug/netcoreapp2.1
+/HandGestureML.ConsoleApp/obj
+/HandGestureML.Model/bin
+/HandGestureML.Model/obj
+/HandGestureML.WebApp/bin/Debug/netcoreapp3.0
+/HandGestureML.WebApp/obj
+/.vs/HandGesture/v16/Server/sqlite3

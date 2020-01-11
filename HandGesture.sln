@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandGesture", "HandGesture\HandGesture.csproj", "{F0B50680-8D68-4A22-BA81-01FC1D71E9DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandGestureML.Model", "HandGestureML.Model\HandGestureML.Model.csproj", "{ECDB515E-E245-430A-9ED8-946BB17CAE68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandGestureML.ConsoleApp", "HandGestureML.ConsoleApp\HandGestureML.ConsoleApp.csproj", "{D6AB323B-B97A-4990-A647-9EC35B0C9BE1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandGestureML.WebApp", "HandGestureML.WebApp\HandGestureML.WebApp.csproj", "{36215D5C-7E6D-43F0-AF23-4D9D8E899AD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4B17068B-326B-46EE-8FB0-1339957767A4}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0B50680-8D68-4A22-BA81-01FC1D71E9DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B50680-8D68-4A22-BA81-01FC1D71E9DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B50680-8D68-4A22-BA81-01FC1D71E9DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B50680-8D68-4A22-BA81-01FC1D71E9DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECDB515E-E245-430A-9ED8-946BB17CAE68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECDB515E-E245-430A-9ED8-946BB17CAE68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECDB515E-E245-430A-9ED8-946BB17CAE68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECDB515E-E245-430A-9ED8-946BB17CAE68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6AB323B-B97A-4990-A647-9EC35B0C9BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6AB323B-B97A-4990-A647-9EC35B0C9BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6AB323B-B97A-4990-A647-9EC35B0C9BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6AB323B-B97A-4990-A647-9EC35B0C9BE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36215D5C-7E6D-43F0-AF23-4D9D8E899AD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36215D5C-7E6D-43F0-AF23-4D9D8E899AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36215D5C-7E6D-43F0-AF23-4D9D8E899AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36215D5C-7E6D-43F0-AF23-4D9D8E899AD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79F9B0BF-8CC7-4D25-B4E2-F69015239927}
+	EndGlobalSection
+EndGlobal
