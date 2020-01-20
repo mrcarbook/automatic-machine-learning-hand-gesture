@@ -1,5 +1,5 @@
 
-# Hand Gesture Project
+# Automatic Machine Learning - Hand Gesture Project
 
 The project use ML.Net and Hand Gesture Recognition Database from this [kaggle repository](https://www.kaggle.com/gti-upm/leapgestrecog)  based on Leap Motion Sensor. The Database is a collection of near-infra-red images of ten distinct hand gestures. In this notebook we use end-to-end deep learning to build a classifier for these images.
 
